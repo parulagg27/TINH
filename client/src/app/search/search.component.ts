@@ -29,7 +29,7 @@ export class SearchComponent implements OnInit {
       })
     });
 
-    this.add_map_point(this.latitude, this.longitude, "https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg");
+    this.add_map_point(this.latitude, this.longitude, "/src/assets/pin.svg");
     this.add_map_point(this.latitude+1, this.longitude+1, "https://upload.wikimedia.org/wikipedia/commons/e/ec/RedDot.svg");
   }
 
