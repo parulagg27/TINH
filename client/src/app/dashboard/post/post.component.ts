@@ -4,7 +4,7 @@ import { UserService } from "src/app/user.service";
 
 export interface IPost {
   text: string;
-  comment: string[];
+  comment?: IPost[];
   user: UserService;
 }
 
@@ -24,10 +24,26 @@ export class PostComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    this.userImage = { "background-image": "url(" + this.post.user.image + ")" };
+    this.userImage = {
+      "background-image": "url(" + this.post.user.image + ")"
+    };
   }
 
   toggleComment() {
     this.canComment = !this.canComment;
+  }
+
+  async onSubmit() {
+    let commentObj: IPost = {
+      text: this.writeComment,
+      user: {
+        firstname: "Sakshi",
+        lastname: "Shreya",
+        age: 123,
+        image: "assets/user.png"
+      }
+    };
+    await setTimeout(() => {}, 1000);
+    this.post.comment.unshift(commentObj);
   }
 }
