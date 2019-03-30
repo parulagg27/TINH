@@ -1,0 +1,5 @@
+.header-main {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0 var(--margin-l-r);
+}

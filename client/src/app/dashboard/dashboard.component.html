@@ -1,0 +1,11 @@
+<div class="container">
+  <!-- <user-card></user-card>
+
+  <prescription-card *ngIf="available"></prescription-card>
+
+  <mat-card class="mat-elevation-z2">
+    <div class="title"><mat-icon class="theme">receipt</mat-icon>Medicines</div>
+  </mat-card> -->
+
+  <app-post *ngFor="let post of posts" [post]="post"></app-post>
+</div>

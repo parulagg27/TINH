@@ -1,0 +1,12 @@
+.header-image {
+  background-size: cover;
+}
+
+.theme {
+  color: var(--primary);
+}
+
+.material-icons {
+  font-size: var(--pfont-size);
+  vertical-align: -webkit-baseline-middle;
+}

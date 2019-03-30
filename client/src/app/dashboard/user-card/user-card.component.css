@@ -1,0 +1,60 @@
+.header-image {
+  background-size: cover;
+}
+
+.bold {
+  font-weight: 500;
+}
+td {
+  vertical-align: top;
+  padding-right: 1em;
+}
+
+label {
+  display: table;
+  width: 100%;
+}
+/* .float-right {
+  float: right;
+  width: 10rem;
+} */
+.ripple-container {
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.8rem 0.5rem;
+  width: 100%;
+
+  background: var(--primary);
+  color: var(--white);
+  font-weight: 900;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.selected-file {
+  margin-top: 1em;
+}
+
+mat-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.upload-image {
+  width: 12rem;
+  max-width: 50%;
+}
+.filename {
+  word-wrap: break-word;
+}
