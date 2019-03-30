@@ -1,0 +1,19 @@
+<mat-card class="card">
+  <mat-card-header>
+    <div mat-card-avatar class="header-image" [ngStyle]="userImage"></div>
+    <mat-card-title>{{ post.user.firstname }}</mat-card-title>
+    <mat-card-subtitle>
+      {{ post.user.lastname }}
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{ post.text }}
+    </p>
+    <div class="right" (click)="toggleComment()"><mat-icon>chat</mat-icon><span class="comment-num">{{ post.comment.length }}</span></div>
+  </mat-card-content>
+  <mat-card-footer>
+    <textarea [(ngModel)]="writeComment" class="write-comment" placeholder="Add comment..."></textarea>
+    <!-- {{ writeComment }} -->
+  </mat-card-footer>
+</mat-card>

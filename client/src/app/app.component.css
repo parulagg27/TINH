@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header'
+  'nav main';
+  grid-template-columns: 4em auto;
+}
+
+app-header {
+  grid-area: header;
+  z-index: 10;
+}
+.main {
+  grid-area: main;
+  height: calc(100vh - 2rem - var(--h1font-size)*1.15);
+  overflow: auto;
+}
+app-navigation {
+  grid-area: nav;
+  z-index: 9;
+}
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-areas: 
+    'header'
+    'main'
+    'nav';
+    grid-template-columns: 100%;
+  }
+  .main {
+    height: calc(100vh - 5rem - var(--h1font-size)*1.15);
+  }
+}

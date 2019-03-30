@@ -1,0 +1,83 @@
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {
+  MatButtonModule,
+  MatCheckboxModule,
+  MatToolbarModule,
+  MatChipsModule,
+  MatOptionModule,
+  MatGridListModule,
+  MatProgressBarModule,
+  MatSliderModule,
+  MatSlideToggleModule,
+  MatMenuModule,
+  MatDialogModule,
+  MatSnackBarModule,
+  MatSelectModule,
+  MatInputModule,
+  MatSidenavModule,
+  MatCardModule,
+  MatIconModule,
+  MatRadioModule,
+  MatProgressSpinnerModule,
+  MatTabsModule,
+  MatListModule,
+  MatRippleModule
+} from "@angular/material";
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatChipsModule,
+    MatOptionModule,
+    MatGridListModule,
+    MatProgressBarModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatMenuModule,
+    MatDialogModule,
+    MatSnackBarModule,
+    MatSelectModule,
+    MatInputModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatIconModule,
+    MatRadioModule,
+    MatProgressSpinnerModule,
+    MatTabsModule,
+    MatListModule,
+    BrowserAnimationsModule,
+    MatRippleModule
+  ],
+  exports: [
+    MatButtonModule,
+    MatCheckboxModule,
+    MatToolbarModule,
+    MatChipsModule,
+    MatOptionModule,
+    MatGridListModule,
+    MatProgressBarModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatMenuModule,
+    MatDialogModule,
+    MatSnackBarModule,
+    MatSelectModule,
+    MatInputModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatIconModule,
+    MatRadioModule,
+    MatProgressSpinnerModule,
+    MatTabsModule,
+    MatListModule,
+    BrowserAnimationsModule,
+    MatRippleModule
+  ]
+})
+export class MaterialModule {}
