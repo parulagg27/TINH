@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SearchService, School } from '../search.service';
 
 @Component({
   selector: 'app-school',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./school.component.css']
 })
 export class SchoolComponent implements OnInit {
+  schools: School[] = [];
 
-  constructor() { }
+  constructor(private search: SearchService) {}
 
   ngOnInit() {
+    this.schools = this.search.Schools;
   }
-
 }

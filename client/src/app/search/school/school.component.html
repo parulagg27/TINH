@@ -1,3 +1,16 @@
-<p>
-  school works!
-</p>
+<div class="container">
+  <div *ngFor="let school of schools">
+    <mat-card class="inner-card mat-elevation-z0">
+      <mat-card-header>
+        <div mat-card-avatar class="header-image" [ngStyle]="userImage"></div>
+        <mat-card-title>{{ school.schoolname }}</mat-card-title>
+        <mat-card-subtitle> Price: {{ school.address }} yrs </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          {{ school.desc }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

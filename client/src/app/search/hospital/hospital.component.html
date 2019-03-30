@@ -1,3 +1,19 @@
-<p>
-  hospital works!
-</p>
+<div class="container">
+    <div *ngFor="let doctor of doctors">
+      <mat-card class="inner-card mat-elevation-z0">
+        <mat-card-header>
+          <div mat-card-avatar class="header-image" [ngStyle]="userImage"></div>
+          <mat-card-title
+            >{{ doctor.firstname }} {{ doctor.lastname }}</mat-card-title
+          >
+          <mat-card-subtitle> Exp: {{ doctor.exp }} yrs </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            {{ doctor.desc }}
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  
