@@ -14,14 +14,20 @@ export interface IPost {
   styleUrls: ["./post.component.css"]
 })
 export class PostComponent implements OnInit {
+  @Input() post: IPost;
   userImage: {};
   file: File = null;
   $: any;
-  @Input() post: IPost;
+  canComment: boolean = false;
+  writeComment: string = "";
 
-  constructor(private user: UserService) {}
+  constructor() {}
 
   ngOnInit() {
     this.userImage = { "background-image": "url(" + this.post.user.image + ")" };
+  }
+
+  toggleComment() {
+    this.canComment = !this.canComment;
   }
 }

@@ -7,12 +7,14 @@ import { MaterialModule } from './material/material.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { UserService } from './user.service';
-import { UserCardComponent } from './dashboard/user-card/user-card.component';
 import { UserMedicinesService } from './user-medicines.service';
 import { FormsModule } from '@angular/forms';
-import { ImageCaptureComponent } from './image-capture/image-capture.component';
-import { PrescriptionCardComponent } from './dashboard/prescription-card/prescription-card.component';
 import { PostComponent } from './dashboard/post/post.component';
+import { SearchComponent } from './search/search.component';
+import { HospitalComponent } from './search/hospital/hospital.component';
+import { SchoolComponent } from './search/school/school.component';
+import { CaretakerComponent } from './search/caretaker/caretaker.component';
+import { GearComponent } from './search/gear/gear.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +22,12 @@ import { PostComponent } from './dashboard/post/post.component';
     HeaderComponent,
     DashboardComponent,
     NavigationComponent,
-    UserCardComponent,
-    ImageCaptureComponent,
-    PrescriptionCardComponent,
-    PostComponent
+    PostComponent,
+    SearchComponent,
+    HospitalComponent,
+    SchoolComponent,
+    CaretakerComponent,
+    GearComponent
   ],
   imports: [
     BrowserModule,

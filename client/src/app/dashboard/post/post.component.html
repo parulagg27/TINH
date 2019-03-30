@@ -10,6 +10,10 @@
     <p>
       {{ post.text }}
     </p>
-    <div class="right"><mat-icon>chat</mat-icon><span class="comment-num">{{ post.comment.length }}</span></div>
+    <div class="right" (click)="toggleComment()"><mat-icon>chat</mat-icon><span class="comment-num">{{ post.comment.length }}</span></div>
   </mat-card-content>
+  <mat-card-footer>
+    <textarea [(ngModel)]="writeComment" class="write-comment" placeholder="Add comment..."></textarea>
+    <!-- {{ writeComment }} -->
+  </mat-card-footer>
 </mat-card>
