@@ -1,5 +1,12 @@
 <div class="container">
   <mat-card class="card">
-    <div #googleMap id="googleMap" style="width:100%;height:300px"></div>
+    <div id="map" class="map"></div>
   </mat-card>
+
+  <mat-tab-group>
+    <mat-tab label="Caretaker"><app-caretaker></app-caretaker></mat-tab>
+    <mat-tab label="Gear"><app-gear></app-gear></mat-tab>
+    <mat-tab label="Hospital"><app-hospital></app-hospital></mat-tab>
+    <mat-tab label="Daycare"><app-school></app-school></mat-tab>
+  </mat-tab-group>
 </div>

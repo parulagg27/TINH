@@ -20,3 +20,17 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+::ng-deep .mat-tab-label {
+  padding: 0 12px;
+  min-width: 120px;
+}
+
+::ng-deep .ol-overlaycontainer-stopevent {
+  display: none;
+}
+
+.map {
+  height: 300px;
+  width: 100%;
+}
