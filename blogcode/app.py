@@ -143,12 +143,12 @@ def delete(title):
 
 
 ###MAILING APP###
-app.route('/')
-def send_mail():
-	msg = Message('Hey!', sender="weblogmail@gmail.com", recipients=['myemail@gmail.com'])
-	msg.body = "Hello, "+session['username']+", welcome to WeBlog."
-	mail.send(msg)
-	return "Sent"
+#app.route('/')
+#def send_mail():
+#	msg = Message('Hey!', sender="weblogmail@gmail.com", recipients=['myemail@gmail.com'])
+#	msg.body = "Hello, "+session['username']+", welcome to WeBlog."
+#	mail.send(msg)
+#	return "Sent"
 	
 
 
