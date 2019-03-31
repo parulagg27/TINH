@@ -1,4 +1,4 @@
-# HINT - A community for parents of neurodiverse children.
+# HINT - A community for parents of neurodivergent children.
 
 
 HINT is a web application for parents of children with conditions like palsy, Asperger's, Down's  etc. The aim is to bring parents of such specially-abled children together to share their experiences, resources, tips etc. with others in the community. 
