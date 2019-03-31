@@ -34,3 +34,19 @@
   height: 300px;
   width: 100%;
 }
+
+::ng-deep .mat-tab-label:nth-child(1) {
+  color: red;
+}
+
+::ng-deep .mat-tab-label:nth-child(2) {
+  color: #bfbf01;
+}
+
+::ng-deep .mat-tab-label:nth-child(3) {
+  color: green;
+}
+
+::ng-deep .mat-tab-label:nth-child(4) {
+  color: blue;
+}

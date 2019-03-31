@@ -6,6 +6,7 @@ export interface IPost {
   text: string;
   comment?: IPost[];
   user: UserService;
+  time?: string;
 }
 
 @Component({

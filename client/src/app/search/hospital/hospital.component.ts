@@ -8,10 +8,14 @@ import { Doctor, SearchService } from '../search.service';
 })
 export class HospitalComponent implements OnInit {
   doctors: Doctor[] = [];
+  userImage: {};
 
   constructor(private search: SearchService) {}
 
   ngOnInit() {
     this.doctors = this.search.Doctors;
+    this.userImage = {
+      "background-image": "url(" + this.doctors[0].image + ")"
+    };
   }
 }
