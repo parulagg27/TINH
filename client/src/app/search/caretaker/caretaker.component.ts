@@ -8,10 +8,14 @@ import { CareTaker, SearchService } from "../search.service";
 })
 export class CaretakerComponent implements OnInit {
   caretakers: CareTaker[] = [];
+  userImage: {};
 
   constructor(private search: SearchService) {}
 
   ngOnInit() {
     this.caretakers = this.search.CareTakers;
+    this.userImage = {
+      "background-image": "url(" + this.caretakers[0].image + ")"
+    };
   }
 }

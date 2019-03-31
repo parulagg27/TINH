@@ -19,6 +19,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
       comment: [
         {
           text: "Very Nice",
+          time: "31-03-2019",
           user: {
             firstname: "Sakshi",
             lastname: "Shreya",
@@ -28,6 +29,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
         },
         {
           text: "Not Good",
+          time: "31-03-2019",
           user: {
             firstname: "Sakshi",
             lastname: "Shreya",
@@ -36,6 +38,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
           }
         }
       ],
+      time: "31-03-2019",
       user: {
         firstname: "vaihav",
         lastname: "Rawat",
@@ -45,7 +48,8 @@ export class DashboardComponent implements OnInit, OnDestroy {
     },
     {
       text:
-      "I often come across situations when, me  and my wife have to go out for meetings and leave our 6 year old son with down syndrome. Leaving our son alone without any supervision isn't even an option for us so with the help of HINT we found Mrs radha gupta who has worked for 13 years in daycare  for specially ablled.",
+        "I often come across situations when, me  and my wife have to go out for meetings and leave our 6 year old son with down syndrome. Leaving our son alone without any supervision isn't even an option for us so with the help of HINT we found Mrs radha gupta who has worked for 13 years in daycare  for specially ablled.",
+      time: "30-03-2019",
       comment: [],
       user: {
         firstname: "Sunny ",
@@ -56,12 +60,13 @@ export class DashboardComponent implements OnInit, OnDestroy {
     },
     {
       text:
-        "It starts with one thing i don't know why it doesn't even matter how hard you try",
+        "You first wonder why this happened to you. And then you move on with your life and try and do everything you can for your child. It almost never seems enough, the pain and the doctor visits and the injections. But everything is worth it when you see your son sleeping quietly after dinner and an extensive dosage of medicines.",
+      time: "29-03-2019",
       comment: [],
       user: {
-        firstname: "Linkin",
-        lastname: "Park",
-        age: 54,
+        firstname: "Usha",
+        lastname: "Manohar",
+        age: 37,
         image: "assets/user.png"
       }
     }

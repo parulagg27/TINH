@@ -44,7 +44,7 @@ export class SearchService implements OnInit {
         firstname: "Sakshi",
         lastname: "Awesome_shreya",
         exp: 12,
-        image: "",
+        image: "/assets/user.png",
         desc: "I am very helpfull person who like children"
       },
       {
@@ -52,7 +52,7 @@ export class SearchService implements OnInit {
         lastname: "Se na ho payega",
         exp: 13 ,
         image: "",
-        desc: "Dummy"
+        desc: "This is Dummy"
       },
       {
         firstname: "Parul",
