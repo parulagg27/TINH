@@ -1,0 +1,41 @@
+<div class="container">
+  <mat-card class="card">
+    <h3>We thank you for giving HINT to the needy.</h3>
+    <form class="form">
+      <mat-form-field class="third-width">
+        <input
+          matInput
+          placeholder="First Name"
+          [(ngModel)]="firstname"
+          name="firstname"
+        />
+      </mat-form-field>
+      <mat-form-field class="third-width second">
+        <input
+          matInput
+          placeholder="Last Name"
+          [(ngModel)]="lastname"
+          name="lastname"
+        />
+      </mat-form-field>
+      <mat-form-field class="third-width second">
+        <input
+          type="number"
+          matInput
+          placeholder="Age of needy"
+          [(ngModel)]="ageOfNeedy"
+          name="ageOfNeedy"
+        />
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <textarea
+          matInput
+          placeholder="Your post here..."
+          [(ngModel)]="text"
+          name="text"
+        ></textarea>
+      </mat-form-field>
+      <button mat-flat-button (click)="onSubmit()" class="theme">Post</button>
+    </form>
+  </mat-card>
+</div>

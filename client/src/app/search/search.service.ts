@@ -41,39 +41,39 @@ export class SearchService implements OnInit {
   get CareTakers() {
     return [
       {
-        firstname: "ABC",
-        lastname: "DEF",
+        firstname: "Sakshi",
+        lastname: "Awesome_shreya",
         exp: 12,
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "I am very helpfull person who like children"
       },
       {
-        firstname: "LMN",
-        lastname: "OPQ",
-        exp: 13,
+        firstname: "Yash",
+        lastname: "Se na ho payega",
+        exp: 13 ,
         image: "",
-        desc: "Dummy1 Dummy1 Dummy1 Dummy1 Dummy1 Dummy1"
+        desc: "Dummy"
       },
       {
-        firstname: "GHI",
+        firstname: "Parul",
         lastname: "JKL",
-        exp: 15,
+        exp: 2,
         image: "",
-        desc: "Dummy3 Dummy3 Dummy3 Dummy3 Dummy3 Dummy3"
+        desc: "I like helping people in need."
       },
       {
-        firstname: "XYZ",
-        lastname: "ABC",
-        exp: 14,
+        firstname: "Anjali",
+        lastname: "Bhawan",
+        exp: 11,
         image: "",
-        desc: "Dummy2 Dummy2 Dummy2 Dummy2 Dummy2 Dummy2"
+        desc: "Life is a song."
       },
       {
-        firstname: "RST",
-        lastname: "UVW",
+        firstname: "Bhai",
+        lastname: "Sallu hai",
         exp: 16,
         image: "",
-        desc: "Dummy5 Dummy5 Dummy5 Dummy5 Dummy5 Dummy5"
+        desc: "Uda do"
       }
     ];
   }
@@ -81,39 +81,39 @@ export class SearchService implements OnInit {
   get Doctors() {
     return [
       {
-        firstname: "ABC",
-        lastname: "DEF",
-        exp: 12,
-        image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
-      },
-      {
-        firstname: "LMN",
-        lastname: "OPQ",
-        exp: 13,
-        image: "",
-        desc: "Dummy1 Dummy1 Dummy1 Dummy1 Dummy1 Dummy1"
-      },
-      {
-        firstname: "GHI",
-        lastname: "JKL",
-        exp: 15,
-        image: "",
-        desc: "Dummy3 Dummy3 Dummy3 Dummy3 Dummy3 Dummy3"
-      },
-      {
-        firstname: "XYZ",
-        lastname: "ABC",
+        firstname: "Pratul",
+        lastname: "Raja",
         exp: 14,
         image: "",
-        desc: "Dummy2 Dummy2 Dummy2 Dummy2 Dummy2 Dummy2"
+        desc: "Raja raja raj keraja mai samaja"
       },
       {
-        firstname: "RST",
-        lastname: "UVW",
+        firstname: "Bojack",
+        lastname: "Horseman",
+        exp: 13,
+        image: "",
+        desc: "Life is a series of endless missed opportunity"
+      },
+      {
+        firstname: "Rick",
+        lastname: "Sanchez",
+        exp: 15,
+        image: "",
+        desc: "I am a god"
+      },
+      {
+        firstname: "Naruto",
+        lastname: "uzamaki",
+        exp: 14,
+        image: "",
+        desc: "i am gonna be a hokage dattabayo"
+      },
+      {
+        firstname: "Hinata ",
+        lastname: "Hyuga",
         exp: 16,
         image: "",
-        desc: "Dummy5 Dummy5 Dummy5 Dummy5 Dummy5 Dummy5"
+        desc: "I am gonna be Hokage's wife"
       }
     ];
   }
@@ -121,34 +121,34 @@ export class SearchService implements OnInit {
   get Schools() {
     return [
       {
-        schoolname: "DEF",
+        schoolname: "DPS",
         address: "Long address, Long address, Long address",
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "Special school for special "
       },
       {
         schoolname: "DEF",
         address: "Long address, Long address, Long address",
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "Special school for special "
       },
       {
         schoolname: "DEF",
         address: "Long address, Long address, Long address",
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "Special school for special"
       },
       {
         schoolname: "DEF",
         address: "Long address, Long address, Long address",
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "Special school for special "
       },
       {
         schoolname: "DEF",
         address: "Long address, Long address, Long address",
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "Special school for special "
       }
     ];
   }
@@ -159,31 +159,31 @@ export class SearchService implements OnInit {
         name: "DEF",
         price: 12,
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "specially made for your needs "
       },
       {
         name: "DEF",
         price: 12,
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "specially made for your needs"
       },
       {
         name: "DEF",
         price: 12,
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "specially made for your needs"
       },
       {
         name: "DEF",
         price: 12,
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "specially made for your needs"
       },
       {
         name: "DEF",
         price: 12,
         image: "",
-        desc: "Dummy Dummy Dummy Dummy Dummy Dummy"
+        desc: "specially made for your needs"
       }
     ];
   }

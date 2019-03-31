@@ -17,6 +17,8 @@ import { CaretakerComponent } from "./search/caretaker/caretaker.component";
 import { GearComponent } from "./search/gear/gear.component";
 import { TabModule } from "angular-tabs-component";
 import { SearchService } from './search/search.service';
+import { HelpComponent } from './help/help.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { SearchService } from './search/search.service';
     HospitalComponent,
     SchoolComponent,
     CaretakerComponent,
-    GearComponent
+    GearComponent,
+    HelpComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

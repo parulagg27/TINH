@@ -15,14 +15,14 @@ export class DashboardComponent implements OnInit, OnDestroy {
   posts: IPost[] = [
     {
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia temporibus vitae molestiae labore dolore autem asperiores magnam. Ducimus temporibus et dicta provident aliquam! Aliquid rerum fugiat magnam sunt ea sit!",
+        "I would like to tell about an incident that happened with my son, who is 8 and suffers from cerebral palsy. This 13th march his conditions worsened while we were on a holiday and were not able to find any good qualified doctor using HINT we were able to find Dr. abhay who had an excellent past record.",
       comment: [
         {
           text: "Very Nice",
           user: {
             firstname: "Sakshi",
             lastname: "Shreya",
-            age: 123,
+            age: 23,
             image: "assets/user.png"
           }
         },
@@ -31,37 +31,37 @@ export class DashboardComponent implements OnInit, OnDestroy {
           user: {
             firstname: "Sakshi",
             lastname: "Shreya",
-            age: 123,
+            age: 23,
             image: "assets/user.png"
           }
         }
       ],
       user: {
-        firstname: "Dummy",
-        lastname: "User",
+        firstname: "vaihav",
+        lastname: "Rawat",
         age: 50,
         image: "assets/user.png"
       }
     },
     {
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia temporibus vitae molestiae labore dolore autem asperiores magnam. Ducimus temporibus et dicta provident aliquam! Aliquid rerum fugiat magnam sunt ea sit!",
+      "I often come across situations when, me  and my wife have to go out for meetings and leave our 6 year old son with down syndrome. Leaving our son alone without any supervision isn't even an option for us so with the help of HINT we found Mrs radha gupta who has worked for 13 years in daycare  for specially ablled.",
       comment: [],
       user: {
-        firstname: "Dummy",
-        lastname: "User",
-        age: 50,
+        firstname: "Sunny ",
+        lastname: "Sharma",
+        age: 46,
         image: "assets/user.png"
       }
     },
     {
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia temporibus vitae molestiae labore dolore autem asperiores magnam. Ducimus temporibus et dicta provident aliquam! Aliquid rerum fugiat magnam sunt ea sit!",
+        "It starts with one thing i don't know why it doesn't even matter how hard you try",
       comment: [],
       user: {
-        firstname: "Dummy",
-        lastname: "User",
-        age: 50,
+        firstname: "Linkin",
+        lastname: "Park",
+        age: 54,
         image: "assets/user.png"
       }
     }
