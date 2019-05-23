@@ -25,7 +25,7 @@
     "angular-osm": "^1.2.2",
     "angular-tabs-component": "^1.0.6",
     "core-js": "^2.5.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "ngx-webcam": "^0.2.2",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
